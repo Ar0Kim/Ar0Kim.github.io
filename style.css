@@ -96,7 +96,7 @@ h1 {
 }
 
 
-/* Links */
+/* Top Links */
 
 .links {
   display: flex;
@@ -140,6 +140,12 @@ section {
   margin-top: 52px;
 }
 
+section p,
+section li {
+  font-size: 17px;
+  line-height: 1.72;
+}
+
 h2 {
   margin: 0 0 20px;
 
@@ -157,7 +163,7 @@ h3 {
 
   color: #252a31;
 
-  font-size: 19px;
+  font-size: 20px;
   font-weight: 650;
   line-height: 1.45;
 
@@ -199,7 +205,7 @@ li {
 }
 
 .item-header strong {
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .item-header span {
@@ -213,7 +219,7 @@ li {
 }
 
 
-/* Research interests */
+/* Research Interests */
 
 .research-interests {
   display: flex;
@@ -271,7 +277,7 @@ li {
 
   color: #7a818b;
 
-  font-size: 14px;
+  font-size: 14px !important;
 }
 
 .description {
@@ -282,27 +288,52 @@ li {
   color: #555e69;
 }
 
+
+/* Paper / Code / Project Buttons */
+
 .paper-links {
-  margin-top: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  margin-top: 15px;
 }
 
 .paper-links a {
-  margin-right: 14px;
+  display: inline-block;
+
+  padding: 5px 11px;
+
+  border: 1px solid #cfd8e5;
+  border-radius: 7px;
+
+  background: #ffffff;
 
   color: #315f9b;
 
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
+  line-height: 1.4;
 
   text-decoration: none;
+
+  transition:
+    background 0.15s ease,
+    border-color 0.15s ease,
+    transform 0.15s ease;
 }
 
 .paper-links a:hover {
-  text-decoration: underline;
+  background: #edf3fa;
+  border-color: #aebed2;
+
+  text-decoration: none;
+
+  transform: translateY(-1px);
 }
 
 
-/* General links */
+/* General Links */
 
 section a {
   color: #315f9b;
@@ -360,8 +391,17 @@ footer {
     margin-top: 42px;
   }
 
+  section p,
+  section li {
+    font-size: 16px;
+  }
+
   h2 {
     font-size: 23px;
+  }
+
+  h3 {
+    font-size: 19px;
   }
 
   .item-header {
