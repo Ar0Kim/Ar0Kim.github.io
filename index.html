@@ -13,20 +13,22 @@
   <main class="container">
 
     <header class="hero">
-      <img class="profile-photo" src="images/profile.jpg" alt="Profile photo of Aro Kim" />
+      <img
+        class="profile-photo"
+        src="images/profile.jpg"
+        alt="Profile photo of Aro Kim"
+      />
 
       <div class="hero-text">
         <h1>Aro Kim</h1>
 
         <p class="subtitle">
-          Researcher in Computer Vision / Generative Models / Video Coding (VVC, ECM) / 3D Vision
+          Generative Models / Video Coding / 3D Vision
         </p>
 
         <p class="intro">
-          <p class="intro">
           Fourth-year Integrated M.S./Ph.D. student in Computer Science and Engineering
           at Kyungpook National University, advised by Prof. Sang-hyo Park.
-
         </p>
 
         <div class="links">
@@ -39,31 +41,34 @@
       </div>
     </header>
 
+
     <section>
       <h2>About</h2>
 
       <p>
-        My research focuses on computer vision, generative models, video coding
-        for machine vision tasks, and 3D vision. <br>
-        I am particularly interested in developing efficient and high-performance visual intelligence systems
-        for real-world image and video understanding.
+        My research focuses on generative models, video coding, and 3D vision.
+        I am particularly interested in developing efficient and high-performance
+        methods for real-world image and video understanding.
       </p>
     </section>
 
+
     <section>
-      <h2>Research Strengths</h2>
+      <h2>Research Approach</h2>
 
       <ul>
         <li>
-          I quickly learn emerging technologies, adapt them to my research workflow,
-          and apply them creatively to new computer vision and machine vision problems.
+          I enjoy quickly learning new research ideas and codebases,
+          adapting them to my own work, and iteratively improving performance.
         </li>
+
         <li>
-          I am highly committed to performance-driven research, with a strong focus
-          on careful experimentation, iterative improvement, and achieving competitive results.
+          I value open communication and collaborative problem-solving,
+          and enjoy working closely with colleagues throughout the research process.
         </li>
       </ul>
     </section>
+
 
     <section>
       <h2>Education</h2>
@@ -73,47 +78,53 @@
           <strong>Kyungpook National University</strong>
           <span>2024 – Present</span>
         </div>
+
         <p>
-          Integrated M.S. /Ph.D. Student in Computer Science and Engineering
+          Integrated M.S./Ph.D. Student in Computer Science and Engineering
         </p>
+
         <p>
           Fourth-year student in the Integrated M.S./Ph.D. Program
         </p>
+
         <p>
           Advisor: Prof. Sang-hyo Park
         </p>
+
         <p>
           Expected Graduation: Summer 2027
         </p>
       </div>
     </section>
 
+
     <section>
       <h2>Research Interests</h2>
 
-      <ul>
-        <li>Computer Vision</li>
+      <ul class="research-interests">
         <li>Generative Models</li>
-        <li>Video Coding for Machine Vision</li>
-        <li>VVC and ECM</li>
-        <li>3D Vision</li>
         <li>Image and Video Restoration</li>
-        <li>Super-Resolution</li>
+        <li>Video Coding</li>
+        <li>3D Vision</li>
       </ul>
     </section>
+
 
     <section>
       <h2>Publications</h2>
 
-      <div class="publication">
-        <h3>FiDeSR: High-Fidelity and Detail-Preserving One-Step Diffusion Super-Resolution</h3>
 
-        <p>
+      <div class="publication">
+        <h3>
+          FiDeSR: High-Fidelity and Detail-Preserving One-Step Diffusion Super-Resolution
+        </h3>
+
+        <p class="authors">
           <strong>Aro Kim</strong>, Myeongjin Jang, Chaewon Moon, Youngjin Shin,
           Jinwoo Jeong, Sang-hyo Park
         </p>
 
-        <p>
+        <p class="venue">
           <em>CVPR 2026</em>
         </p>
 
@@ -128,16 +139,51 @@
         </p>
       </div>
 
-      <div class="publication">
-        <h3>Deep Learning-Guided Video Compression for Machine Vision Tasks</h3>
 
-        <p>
+      <div class="publication">
+        <h3>
+          CompSplat: Compression-aware 3D Gaussian Splatting for Real-world Video
+        </h3>
+
+        <p class="authors">
+          Hojun Song, Heejung Choi, <strong>Aro Kim</strong>, Chae-yeong Song,
+          Gahyeon Kim, Soo Ye Kim, Jaehyup Lee, Sang-hyo Park
+        </p>
+
+        <p class="venue">
+          <em>arXiv preprint, 2026</em>
+        </p>
+
+        <p class="description">
+          A compression-aware 3D Gaussian Splatting framework for long, unposed,
+          real-world videos. It models frame-wise compression reliability and
+          adaptively guides Gaussian densification and pruning to improve rendering
+          quality, pose accuracy, and geometric consistency under severe compression.
+        </p>
+
+        <p class="paper-links">
+          <a href="https://arxiv.org/abs/2602.09816">Paper</a>
+          <a href="https://hdddhdd.github.io/CompSplat-page/">Project</a>
+          <a href="https://github.com/hojunking/CompSplat">Code</a>
+        </p>
+      </div>
+
+
+      <div class="publication">
+        <h3>
+          Deep Learning-Guided Video Compression for Machine Vision Tasks
+        </h3>
+
+        <p class="authors">
           <strong>Aro Kim</strong>, Seung-taek Woo, Minho Park, Dong-hwi Kim,
           Hanshin Lim, Soon-heung Jung, Sangwoon Kwak, Sang-hyo Park
         </p>
 
-        <p>
-          <em>EURASIP Journal on Image and Video Processing, 2024, Vol. 2024, No. 1, Article 32</em>
+        <p class="venue">
+          <em>
+            EURASIP Journal on Image and Video Processing,
+            2024, Vol. 2024, No. 1, Article 32
+          </em>
         </p>
 
         <p class="meta">
@@ -150,17 +196,25 @@
           machine vision to improve coding efficiency, achieving an average
           BD-rate gain of 5.91% and up to 19.51% BD-rate gain.
         </p>
+
+        <p class="paper-links">
+          <a href="https://doi.org/10.1186/s13640-024-00649-w">Paper</a>
+        </p>
       </div>
 
-      <div class="publication">
-        <h3>Pruning-Guided Feature Distillation for an Efficient Transformer-Based Pose Estimation Model</h3>
 
-        <p>
+      <div class="publication">
+        <h3>
+          Pruning-Guided Feature Distillation for an Efficient Transformer-Based
+          Pose Estimation Model
+        </h3>
+
+        <p class="authors">
           Dong-hwi Kim, Dong-hun Lee, <strong>Aro Kim</strong>, Jinwoo Jeong,
           Jong Taek Lee, Sungjei Kim, Sang-hyo Park
         </p>
 
-        <p>
+        <p class="venue">
           <em>IET Computer Vision, 2024, Vol. 18, No. 6, pp. 745–758</em>
         </p>
 
@@ -174,27 +228,26 @@
           approach reduces model size by 30% compared to the state of the art
           while maintaining high accuracy.
         </p>
+
+        <p class="paper-links">
+          <a href="https://doi.org/10.1049/cvi2.12277">Paper</a>
+        </p>
       </div>
+
     </section>
 
-    
-    <section>
-      <h2>Work Authorization</h2>
-
-      <p>
-        Open to research and engineering opportunities in the U.S. and internationally.
-      </p>
-    </section>
 
     <section>
       <h2>Contact</h2>
 
       <p>
         Email:
-        <a href="mailto:arokim37@gmail.com">arokim37@gmail.com</a> /
+        <a href="mailto:arokim37@gmail.com">arokim37@gmail.com</a>
+        /
         <a href="mailto:arokim37@knu.ac.kr">arokim37@knu.ac.kr</a>
       </p>
     </section>
+
 
     <footer>
       <p>Last updated: 2026</p>
